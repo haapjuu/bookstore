@@ -1,4 +1,4 @@
-package hh.swd20.teht2.bookstore;
+package swd20.bookstore;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import java.util.List;
@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import hh.swd20.teht2.bookstore.domain.Category;
-import hh.swd20.teht2.bookstore.domain.CategoryRepo;
-import hh.swd20.teht2.bookstore.domain.Book;
-import hh.swd20.teht2.bookstore.domain.BookRepo;
+import swd20.bookstore.domain.Category;
+import swd20.bookstore.domain.CategoryRepo;
+import swd20.bookstore.domain.Book;
+import swd20.bookstore.domain.BookRepo;
 
 
 @RunWith(SpringRunner.class)
